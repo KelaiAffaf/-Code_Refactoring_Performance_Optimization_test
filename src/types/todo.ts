@@ -5,7 +5,9 @@ export interface Todo {
   userId: number;
 }
 
-export type TodoError = {
-  message: string;
-  code?: string;
+export type TodosResponse = Todo[];
+
+export type ToggleTodoParams = {
+  id: number;
+  completed: boolean;
 };
