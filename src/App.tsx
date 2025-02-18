@@ -2,6 +2,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./styles/tailwind.css";
 import { TodoList } from "./components/todo/todo-list";
+import Counter from "./components/counter/counter-optmized";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
       {/* Todo List Container */}
       <div className="w-full max-w-2xl bg-white shadow-lg rounded-xl p-6">
         <TodoList />
+      </div>
+
+      {/* Counter Section */}
+      <div className="mt-8 w-full max-w-sm bg-white shadow-lg rounded-xl p-6 border border-gray-200">
+        <Counter />
       </div>
 
       {/* Footer */}
