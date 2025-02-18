@@ -1,5 +1,3 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./styles/tailwind.css";
 import { TodoList } from "./components/todo/todo-list";
 import Counter from "./components/counter/counter-optmized";
